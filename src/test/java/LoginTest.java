@@ -35,6 +35,7 @@ public class LoginTest {
 		//Thread.sleep(2000);
 		driver.findElement(By.cssSelector("#pass")).sendKeys("kadambaripatil");
 		driver.findElement(By.cssSelector("#loginbutton")).click();
+		System.out.println("welcome");
 	}
 	
 	@AfterSuite
